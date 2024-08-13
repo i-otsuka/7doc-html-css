@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.principal{
+    padding: 0 8%;
+}
+
+.principal__container{
+    margin-top: 3rem;
+}

@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+.sobre{
+    margin: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre__nome-secao{
+    display: block;
+    font-weight: 600;
+    color:var(--color-principal);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.sobre__titulo{
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--color-titulo);
+    line-height: 125%;
+    margin: 1.5rem 0;
+    text-align: center;
+}
+.sobre__texto{
+    font-size: 1.25rem;
+    color: var(--color-texto);
+    text-align: center;
+    text-wrap: balance;
+    width: 65%;
+}
+
+.sobre__metricas__container{
+    display: flex;
+    gap:2rem;
+    margin: 4rem 0;
+    padding: 0 2rem;
+}
+
+.sobre__metricas__item{
+    width: 25%;
+}
+
+.metrica__titulo{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap:2rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-titulo);
+    margin-bottom: 1rem;
+}
+
+.metrica__titulo--destaque{
+    font-size: 3.75rem;
+    font-weight: 500;
+    color:var(--color-principal)
+}
+
+.metrica__texto{
+    font-size: 0.85rem;
+    color: var(--color-texto);
+}

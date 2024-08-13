@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.vagas{
+    margin: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vagas__nome-secao{
+    display: block;
+    background-color: var(--color-box);
+    border-radius: 2rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color:var(--color-principal);
+    text-align: center;
+    padding: 0.2rem 1rem;
+}
+
+.vagas__titulo{
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: var(--color-titulo);
+    line-height: 125%;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.vagas__texto{
+    font-size: 1.25rem;
+    color: var(--color-texto);
+    text-align: center;
+    text-wrap: balance;
+    width: 65%;
+}
+
+.vagas__imagem{
+    width: 100%;
+    margin: 3rem 0;
+}
