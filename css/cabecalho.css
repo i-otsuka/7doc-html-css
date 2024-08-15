@@ -57,3 +57,7 @@
     display: inline-block;
 }
 
+.menu__botao:hover{
+    box-shadow: 0 2px 4px rgba(142, 36, 36, 0.35);
+    background-color: var(--color-principal-hover);
+}
