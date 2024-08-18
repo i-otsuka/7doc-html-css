@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .depoimento__container{
-    background-color: var(--color-box);
+    background-color: var(--color-transparent-box1);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,7 +12,7 @@
 }
 
 .depoimento__secao{
-    color: var(--color-principal);
+    color: var(--color-theme1);
     font-size: 0.85rem;
     font-weight: 600;
 }
@@ -21,16 +21,16 @@
     font-size: 2.25rem;
     font-weight: 500;
     line-height: 110%;
-    color: var(--color-titulo);
+    color: var(--color-theme2);
     text-wrap: balance;
 }
 
 .autor__nome{
     font-weight: 500;
-    color: var(--color-titulo);
+    color: var(--color-theme2);
 }
 
 .autor__profissao{
     font-size: 0.85rem;
-    color: var(--color-texto);
+    color: var(--color-theme3);
 }

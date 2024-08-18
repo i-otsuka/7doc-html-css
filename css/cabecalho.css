@@ -41,23 +41,35 @@
 
 .menu__link{
     font-weight: 500;
-    color: var(--color-texto);
+    color: var( --color-theme3);
     text-decoration: none;
-    padding:0.9rem 1rem;
+    padding:0.9rem 1rem 0.5rem;
     display: inline-block;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease-in-out ;
+}
+
+.menu__link:hover{
+    border-bottom: 2px solid var( --color-theme1);
+    transition: all 0.2s ease-in-out ;
 }
 
 .menu__botao{
-    background-color:var(--color-principal);
+    background-color: var(--color-theme1);
     border-radius: 8px;
     font-weight: 500;
-    color: var(--color-bg);
+    color: var(--color-white);
     text-decoration: none;
     padding:0.8rem 1.5rem;
     display: inline-block;
 }
 
 .menu__botao:hover{
-    box-shadow: 0 2px 4px rgba(142, 36, 36, 0.35);
-    background-color: var(--color-principal-hover);
+    box-shadow: 0 2px 4px var(--color-shadow1);
+    background-color: var(--color-theme1-light);
+}
+
+.menu__botao:active{
+    box-shadow: 0 1px 4px var(--color-shadow1);
+    transform: translateY(1px)
 }

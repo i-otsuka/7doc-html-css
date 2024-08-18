@@ -10,7 +10,7 @@
 .sobre__nome-secao{
     display: block;
     font-weight: 600;
-    color:var(--color-principal);
+    color:var( --color-theme1);
     text-align: center;
     margin-bottom: 1rem;
 }
@@ -18,14 +18,14 @@
 .sobre__titulo{
     font-size: 3rem;
     font-weight: 600;
-    color: var(--color-titulo);
+    color: var(--color-theme2);
     line-height: 125%;
     margin: 1.5rem 0;
     text-align: center;
 }
 .sobre__texto{
     font-size: 1.25rem;
-    color: var(--color-texto);
+    color: var( --color-theme3);
     text-align: center;
     text-wrap: balance;
     width: 70%;
@@ -49,17 +49,17 @@
     gap:2rem;
     font-size: 1.25rem;
     font-weight: 600;
-    color: var(--color-titulo);
+    color: var(--color-theme2);
     margin-bottom: 1rem;
 }
 
 .metrica__titulo--destaque{
     font-size: 3.75rem;
     font-weight: 500;
-    color:var(--color-principal)
+    color:var( --color-theme1)
 }
 
 .metrica__texto{
     font-size: 0.85rem;
-    color: var(--color-texto);
+    color: var( --color-theme3);
 }

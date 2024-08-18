@@ -8,11 +8,11 @@
 
 .vagas__nome-secao{
     display: block;
-    background-color: var(--color-box);
+    background-color: var(--color-transparent-box1);
     border-radius: 2rem;
     font-size: 0.85rem;
     font-weight: 600;
-    color:var(--color-principal);
+    color:var(--color-theme1);
     text-align: center;
     padding: 0.2rem 1rem;
 }
@@ -20,7 +20,7 @@
 .vagas__titulo{
     font-size: 2.25rem;
     font-weight: 600;
-    color: var(--color-titulo);
+    color: var(--color-theme2);
     line-height: 125%;
     text-align: center;
     margin: 1rem 0;
@@ -28,7 +28,7 @@
 
 .vagas__texto{
     font-size: 1.25rem;
-    color: var(--color-texto);
+    color: var(--color-theme3);
     text-align: center;
     text-wrap: balance;
     width: 65%;
@@ -50,27 +50,27 @@
 .vagas__vitrine__titulo{
     font-size: 1.25rem;
     font-weight: 500;
-    color:var(--color-titulo);
+    color:var(--color-theme2);
     margin-top: 1rem;
 }
 
 .vagas__vitrine__anuncio{
     display: block;
     padding: 1.5rem 1rem;
-    border: 1px solid var(--color-contorno);
+    border: 1px solid var(--color-gray2);
     border-radius: 1rem;
     text-decoration: none;
 }
 
 .vagas__vitrine__anuncio:hover{
-    background-color: var(--color-bg2);
+    background-color: var(--color-gray3);
     cursor: pointer;
 }
 
 .anuncio__titulo{
     font-size: 1.125rem;
     font-weight: 500;
-    color: var(--color-titulo);
+    color: var(--color-theme2);
     margin-bottom: 1.5rem;
 }
 
@@ -80,6 +80,6 @@
 }
 
 .anuncio__descricao__item{
-    color: var(--color-texto);
+    color: var( --color-theme3);
     font-weight: 500;
 }
